@@ -112,6 +112,65 @@ a:hover {
 }
 
 
+.about-quote {
+    margin: 0;
+    padding-left: 1rem;
+    border-left: 3px solid var(--primary);
+    font-size: 1.05rem;
+    font-style: italic;
+    line-height: 1.65;
+    color: var(--ink);
+}
+
+.about-signature {
+    display: block;
+    max-width: 170px;
+    width: 100%;
+    height: auto;
+}
+
+.about-experience-badge {
+    width: 200px;
+    height: 200px;
+}
+
+@media (max-width: 767.98px) {
+    .about-image-wrap {
+        padding-top: 1.25rem !important;
+        padding-left: 1.25rem !important;
+    }
+
+    .about-experience-badge {
+        width: 118px;
+        height: 118px;
+    }
+
+    .about-experience-badge .pe-3 {
+        padding-right: 0.5rem !important;
+    }
+
+    .about-experience-badge .pb-3 {
+        padding-bottom: 0.5rem !important;
+    }
+
+    .about-experience-badge .p-3 {
+        padding: 0.65rem !important;
+    }
+
+    .about-experience-badge h1 {
+        font-size: 1.35rem;
+    }
+
+    .about-experience-badge h2 {
+        font-size: 0.95rem;
+    }
+
+    .about-experience-badge h5 {
+        font-size: 0.62rem;
+    }
+}
+
+
 /*** Spinner ***/
 #spinner {
     opacity: 0;

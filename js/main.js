@@ -15,7 +15,7 @@
     // WhatsApp float button
     if (!$('.whatsapp-float').length) {
         $('body').append(
-            '<a href="https://wa.me/41445551818" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Kontakt">' +
+            '<a href="https://wa.me/41798442392" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Kontakt">' +
             '<i class="fab fa-whatsapp"></i></a>'
         );
     }

@@ -47,10 +47,10 @@
         "@type": "LocalBusiness",
         "name": "HP Möbelmontage",
         "description": "Privater Möbelmontageservice für Zuhause und Büro in der Schweiz.",
-        "telephone": "+41 44 555 18 18",
+        "telephone": "+41 79 844 23 92",
         "email": "info@meinmonteur.ch",
         "areaServed": "CH",
-        "address": {"@type": "PostalAddress", "addressCountry": "CH", "addressLocality": "Zürich"},
+        "address": {"@type": "PostalAddress", "streetAddress": "Zinggengasse 6", "postalCode": "9437", "addressLocality": "Marbach", "addressRegion": "SG", "addressCountry": "CH"},
         "serviceType": ["Möbelmontage Schweiz", "IKEA Montage", "Möbel Aufbau", "Schrankmontage", "Büroeinrichtung"]
       }
     </script>
@@ -72,7 +72,7 @@
         <div class="col-lg-8 px-5 text-start">
           <div class="h-100 d-inline-flex align-items-center border-start border-end px-3">
             <small class="fa fa-phone-alt me-2"></small>
-            <small>+41 44 555 18 18</small>
+            <small>+41 79 844 23 92</small>
           </div>
           <div class="h-100 d-inline-flex align-items-center border-end px-3">
             <small class="far fa-envelope-open me-2"></small>
@@ -95,7 +95,7 @@
     <!-- Topbar End -->
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0">
+   <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0">
       <a href="index.html" class="navbar-brand d-flex align-items-center">
         <img class="brand-logo" src="img/logo/logo-web.png" alt="HP Möbelmontage Logo" />
       </a>
@@ -105,17 +105,15 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto py-3 py-lg-0">
           <a href="index.html" class="nav-item nav-link">Startseite</a>
+          <a href="service.html" class="nav-item nav-link">Dienstleistungen</a>
           <a href="about.html" class="nav-item nav-link">Über uns</a>
-          <a href="service.html" class="nav-item nav-link">Services</a>
           <div class="nav-item dropdown">
-            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Mehr</a>
+            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Mehr</a>
             <div class="dropdown-menu bg-light m-0">
               <a href="moebelmontage.html" class="dropdown-item">Möbelmontage</a>
               <a href="bueroeinrichtungen.html" class="dropdown-item">Büroeinrichtungen</a>
               <a href="komplette-moeblierung.html" class="dropdown-item">Komplette Möblierung</a>
-              <a href="feature.html" class="dropdown-item">Qualität</a>
               <a href="appointment.html" class="dropdown-item active">Angebot</a>
-              <a href="team.html" class="dropdown-item">Projekte</a>
               <a href="testimonial.html" class="dropdown-item">Kundenstimmen</a>
             </div>
           </div>
@@ -144,19 +142,20 @@
       <div class="container py-5">
         <div class="row g-5">
           <div class="col-lg-5 col-md-6 wow fadeIn" data-wow-delay="0.3s">
-            <div style="color: rgb(231, 231, 231);" class="border-start border-5 border-primary ps-4 mb-5"><h6 class="text-white text-uppercase mb-2">Kontakt</h6><h1 class="display-6 text-white mb-0">Möbel gekauft? Wir montieren es sauber und termingerecht.</h1></div>
-            <p class="text-white mb-4">Ruf direkt an oder sende eine kurze Anfrage mit Möbeltyp, Ort und Wunschtermin. Wir melden uns schnell mit einer klaren Einschätzung.</p>
-            <a class="btn btn-primary py-3 px-5 me-3" href="tel:+41445551818">Jetzt anrufen</a>
+            <div class="border-start border-5 border-primary ps-4 mb-5"><h6 class="text-white text-uppercase mb-2">Kontakt</h6><h1 class="display-6 text-white mb-0">Möbel gekauft? <br> Wir übernehmen die Montage</h1></div>
+            <p class="text-white mb-4">Rufen Sie uns an oder senden Sie eine unverbindliche Anfrage. Teilen Sie uns Ihr Projekt
+mit und Sie erhalten schnell eine transparente Offerte!.</p>
+            <a class="btn btn-primary py-3 px-5 me-3" href="tel:+41798442392">Jetzt anrufen</a>
             <a class="btn btn-outline-light py-3 px-5" href="contact.html">Kontakt</a>
           </div>
           <div class="col-lg-7 col-md-6 wow fadeIn" data-wow-delay="0.5s">
             <form>
               <div class="row g-3">
-                <div class="col-sm-6"><div class="form-floating"><input type="text" class="form-control bg-dark border-0" id="gname" placeholder="Name" /><label for="gname">Dein Name</label></div></div>
-                <div class="col-sm-6"><div class="form-floating"><input type="email" class="form-control bg-dark border-0" id="gmail" placeholder="E-Mail" /><label for="gmail">E-Mail</label></div></div>
-                <div class="col-sm-6"><div class="form-floating"><input type="text" class="form-control bg-dark border-0" id="cname" placeholder="Telefon" /><label for="cname">Telefon</label></div></div>
-                <div class="col-sm-6"><div class="form-floating"><input type="text" class="form-control bg-dark border-0" id="cage" placeholder="Service" /><label for="cage">Servicetyp</label></div></div>
-                <div class="col-12"><div class="form-floating"><textarea class="form-control bg-dark border-0" placeholder="Nachricht" id="message" style="height: 100px"></textarea><label for="message">Möbel, Ort und Wunschtermin</label></div></div>
+               <div class="col-sm-6"><div  class="form-floating"><input style="opacity: 80%; background-color: rgb(228, 220, 210) !important;" type="text" class="form-control bg-dark border-0" id="gname" placeholder="Name" /><label for="gname">Dein Name</label></div></div>
+                <div class="col-sm-6"><div class="form-floating"><input style="opacity: 80%; background-color: rgb(228, 220, 210) !important;" type="email" class="form-control bg-dark border-0" id="gmail" placeholder="E-Mail" /><label for="gmail">E-Mail</label></div></div>
+                <div class="col-sm-6"><div class="form-floating"><input style="opacity: 80%; background-color: rgb(228, 220, 210) !important;" type="text" class="form-control bg-dark border-0" id="cname" placeholder="Telefon" /><label for="cname">Telefon</label></div></div>
+                <div class="col-sm-6"><div class="form-floating"><input style="opacity: 80%; background-color: rgb(228, 220, 210) !important;" type="text" class="form-control bg-dark border-0" id="cage" placeholder="Service" /><label for="cage">Servicetyp</label></div></div>
+                <div class="col-12"><div class="form-floating"><textarea style="opacity: 80%; background-color: rgb(228, 220, 210) !important;" class="form-control bg-dark border-0" placeholder="Nachricht" id="message" style="height: 100px"></textarea><label for="message">Möbel, Ort und Wunschtermin</label></div></div>
                 <div class="col-12"><button class="btn btn-primary w-100 py-3" type="submit">Angebot anfordern</button></div>
               </div>
             </form>
@@ -181,8 +180,8 @@
           </div>
           <div class="col-lg-3 col-md-6">
             <h4 class="text-light mb-4">Kontakt</h4>
-            <p><i class="fa fa-map-marker-alt me-3"></i>Zürich, Schweiz</p>
-            <p><i class="fa fa-phone-alt me-3"></i><a href="tel:+41445551818">+41 44 555 18 18</a></p>
+            <p><i class="fa fa-map-marker-alt me-3"></i>Zinggengasse 6, 9437 Marbach SG</p>
+            <p><i class="fa fa-phone-alt me-3"></i><a href="tel:+41798442392">+41 79 844 23 92</a></p>
             <p><i class="fa fa-envelope me-3"></i><a href="mailto:info@meinmonteur.ch">info@meinmonteur.ch</a></p>
           </div>
           <div class="col-lg-3 col-md-6">

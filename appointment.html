@@ -147,13 +147,17 @@ mit und Sie erhalten schnell eine transparente Offerte!.</p>
             <a class="btn btn-outline-light py-3 px-5" href="contact.html">Kontakt</a>
           </div>
           <div class="col-lg-7 col-md-6 wow fadeIn" data-wow-delay="0.5s">
-            <form>
+            <form action="https://formsubmit.co/info@meinmonteur.ch" method="POST">
+              <input type="hidden" name="_subject" value="Neue Anfrage von Angebot – HP Möbelmontage" />
+              <input type="hidden" name="_captcha" value="true" />
+              <input type="hidden" name="_next" value="https://meinmonteur.ch/appointment.html" />
+              <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
               <div class="row g-3">
-                <div class="col-sm-6"><div  class="form-floating"><input style="opacity: 80%; background-color: rgb(228, 220, 210) !important; color: #0f0f0f;" type="text" class="form-control bg-dark border-0" id="gname" placeholder="Name" /><label style="color: #565151;" for="gname">Dein Name</label></div></div>
-                <div class="col-sm-6"><div class="form-floating"><input style="opacity: 80%; background-color: rgb(228, 220, 210) !important; color: #0f0f0f;" type="email" class="form-control bg-dark border-0" id="gmail" placeholder="E-Mail" /><label style="color: #565151;" for="gmail">E-Mail</label></div></div>
-                <div class="col-sm-6"><div class="form-floating"><input style="opacity: 80%; background-color: rgb(228, 220, 210) !important; color: #0f0f0f;" type="text" class="form-control bg-dark border-0" id="cname" placeholder="Telefon" /><label style="color: #565151;" for="cname">Telefon</label></div></div>
-                <div class="col-sm-6"><div class="form-floating"><input style="opacity: 80%; background-color: rgb(228, 220, 210) !important; color: #0f0f0f;" type="text" class="form-control bg-dark border-0" id="cage" placeholder="Service" /><label style="color: #565151;" for="cage">Servicetyp</label></div></div>
-                <div class="col-12"><div class="form-floating"><textarea style="opacity: 80%; background-color: rgb(228, 220, 210) !important; color: #0f0f0f;" class="form-control bg-dark border-0" placeholder="Nachricht" id="message" style="height: 100px"></textarea><label style="color: #565151;" for="message">Möbel, Ort und Wunschtermin</label></div></div>
+                <div class="col-sm-6"><div  class="form-floating"><input style="opacity: 80%; background-color: rgb(228, 220, 210) !important; color: #0f0f0f;" type="text" class="form-control bg-dark border-0" id="gname" name="name" placeholder="Name" required /><label style="color: #565151;" for="gname">Dein Name</label></div></div>
+                <div class="col-sm-6"><div class="form-floating"><input style="opacity: 80%; background-color: rgb(228, 220, 210) !important; color: #0f0f0f;" type="email" class="form-control bg-dark border-0" id="gmail" name="email" placeholder="E-Mail" required /><label style="color: #565151;" for="gmail">E-Mail</label></div></div>
+                <div class="col-sm-6"><div class="form-floating"><input style="opacity: 80%; background-color: rgb(228, 220, 210) !important; color: #0f0f0f;" type="text" class="form-control bg-dark border-0" id="cname" name="phone" placeholder="Telefon" /><label style="color: #565151;" for="cname">Telefon</label></div></div>
+                <div class="col-sm-6"><div class="form-floating"><input style="opacity: 80%; background-color: rgb(228, 220, 210) !important; color: #0f0f0f;" type="text" class="form-control bg-dark border-0" id="cage" name="service" placeholder="Service" /><label style="color: #565151;" for="cage">Servicetyp</label></div></div>
+                <div class="col-12"><div class="form-floating"><textarea style="opacity: 80%; background-color: rgb(228, 220, 210) !important; color: #0f0f0f; height: 100px;" class="form-control bg-dark border-0" placeholder="Nachricht" id="message" name="message"></textarea><label style="color: #565151;" for="message">Möbel, Ort und Wunschtermin</label></div></div>
                 <div class="col-12"><button class="btn btn-primary w-100 py-3" type="submit">Angebot anfordern</button></div>
               </div>
             </form>

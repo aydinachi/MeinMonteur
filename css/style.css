@@ -729,6 +729,52 @@ a:hover {
 }
 
 
+/*** Projects ***/
+.project-item {
+    overflow: hidden;
+    border: 1px solid var(--line);
+    background: #FFFFFF;
+}
+
+.project-item img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    transition: .5s;
+}
+
+.project-item:hover img {
+    transform: scale(1.04);
+}
+
+@media (min-width: 992px) {
+    .project-gallery .container > .row.g-4 {
+        display: block;
+        column-count: 3;
+        column-gap: .75rem;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .project-gallery .container > .row.g-4 > [class*="col-"] {
+        display: inline-block;
+        width: 100%;
+        max-width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+        margin-top: 0;
+        margin-bottom: .75rem;
+        break-inside: avoid;
+    }
+
+    .project-gallery .project-item img {
+        aspect-ratio: auto;
+        height: auto;
+    }
+}
+
+
 /*** Appointment ***/
 .appointment {
     background: linear-gradient(90deg, rgba(0, 0, 0, .78), rgba(0, 0, 0, .50)), url(../img/carousel-2.jpg) center center no-repeat;
